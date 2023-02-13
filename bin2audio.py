@@ -1,4 +1,3 @@
-from PIL import Image
 import soundfile
 import os
 import struct
