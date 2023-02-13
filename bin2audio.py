@@ -43,14 +43,14 @@ def read_file():
     return data, filename
 
 def write_audio(data, filename):
-    sample_rate = 10500
-    sample_rate_inp = input("Sample rate (default 10500):")
+    sample_rate = 21000
+    sample_rate_inp = input("Sample rate (default 21000):")
 
     if sample_rate_inp:
         try:
             sample_rate = int(sample_rate_inp)
         except:
-            print("Could not interpret sample rate input. Defaulting to 42000...")
+            print("Could not interpret sample rate input. Defaulting to 21000...")
             pass
     
     exp_data = []
